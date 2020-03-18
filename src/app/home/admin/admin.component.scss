@@ -1,0 +1,25 @@
+.admin-content {
+  position: relative;
+  height: calc(100% - 70px);
+}
+
+.admin-sidenav-left {
+  width: 250px;
+  .admin-tables-menu {
+    margin: 20px;
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      margin: 5px;
+    }
+  }
+  }
+
+
+}
+
+.admin-sidenav-right {
+    padding: 20px;
+}

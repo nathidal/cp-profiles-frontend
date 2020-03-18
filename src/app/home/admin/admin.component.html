@@ -1,0 +1,41 @@
+<!-- <div class="admin-container"> -->
+  <mat-toolbar color="primary" class="example-toolbar">
+    <button mat-button mat-icon-button (click)="snav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <h1 class="example-app-name">Admin Page</h1>
+  </mat-toolbar>
+  <div class="admin-content">
+    <mat-sidenav-container class="admin-sidenav-container" fullscreen>
+      <mat-sidenav #snav class="admin-sidenav-left" mode="side" opened role="navigation">
+        <div class="admin-tables-menu">
+          <ul>
+            <li> Industries </li>
+            <li> Industries </li>
+            <li> Industries </li>
+            <li> Industries </li>
+            <li> Industries </li>
+            <li> Industries </li>
+          </ul>
+        </div>
+        <!-- <mat-accordion>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Tables
+              </mat-panel-title>
+              <mat-panel-description>
+                Type your name and age
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>I'm visible because I am open</p>
+          </mat-expansion-panel>
+        </mat-accordion> -->
+      </mat-sidenav>
+
+      <mat-sidenav-content class="admin-sidenav-right">
+        This is the content (list of every table from the right)
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+<!-- </div> -->

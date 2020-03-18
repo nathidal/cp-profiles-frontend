@@ -1,0 +1,9 @@
+.main-container {
+  height: 100%;
+  position: relative;
+  background-color: white !important;
+
+  .content-container {
+    height: calc(100% - 70px);
+  }
+}
