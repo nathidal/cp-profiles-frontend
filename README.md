@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# cp-profiles-frontend
+Clearpeaks new Profile application (Frontend)
+=======
+>>>>>>> bba67f3e352a4512f652949b40e8527cccf77b5a
 # CpProfilesNew
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
