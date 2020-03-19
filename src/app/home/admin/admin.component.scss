@@ -7,6 +7,7 @@
   width: 250px;
   .admin-tables-menu {
     margin: 20px;
+
     ul {
     margin: 0;
     padding: 0;
@@ -22,4 +23,8 @@
 
 .admin-sidenav-right {
     padding: 20px;
+    .admin-sidenav-content {
+      padding: 20px;
+      box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.15);
+    }
 }
